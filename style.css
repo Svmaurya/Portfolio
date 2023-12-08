@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Croissant+One&family=Nunito+Sans:opsz@6..12&family=PT+Serif&family=Roboto&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Croissant+One&family=Nunito+Sans:opsz@6..12&family=PT+Serif&family=Roboto&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Croissant+One&family=Libre+Baskerville&family=Nunito+Sans:opsz@6..12&family=PT+Serif&family=Roboto&family=Titillium+Web&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body {
+     font-family: 'Croissant One', cursive; 
+    /* font-family: 'Libre Baskerville', serif; */
+    background-color: #bc4949;
+    color: rgb(29, 28, 28);
+    background:linear-gradient(to right,rgb(47, 217, 233),rgb(48, 210, 129));
+}
+
+header {
+    background-color: #271377;
+    color: rgb(237, 224, 224);
+    padding: 20px;
+    /* font-family: 'Croissant One', cursive; */
+    font-family: 'Libre Baskerville', serif;
+}
+.logo {
+    /* max-width: 100px;  */
+     height: 20px; 
+ } 
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; 
+    padding-bottom: 5px;
+}
+
+.navigation li { 
+    margin-right: 20px; /* Add space between navigation items */
+}
+
+ .navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+} 
+
+.navigation a:hover {
+   color: rgb(110, 22, 188); 
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f3f3f300;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+    font-family: 'Croissant One', cursive;
+    /* font-family: 'Libre Baskerville', serif; */
+} 
+
+.about {
+    display: flex;
+    flex-direction: row; /* Image on the right, content on the left */
+    align-items: center;
+    padding: 20px;
+    font-size: large;
+}
+
+ .about-content {
+    flex: 1;
+    padding-right: 50px;
+} 
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 10px; 
+}
+
+/* .about-image {
+    flex: 1;
+} */
+
+.about-image img {
+    max-width: 250px;
+    height: 300px;
+}
+
+.skills {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f6f6f623;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+    font-family: 'Croissant One', cursive; 
+    /* font-family: 'Libre Baskerville', serif; */
+}
+
+.skills h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* .skill {
+    margin-bottom: 30px;
+} */
+
+.skill-name {
+    font-weight: bold;
+    /* margin-bottom: 20px; */
+}
+
+.progress-bar {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.progress {
+    /* background:linear-gradient(to right,rgb(54, 131, 186),rgb(202, 37, 106)); */
+    background:linear-gradient(to right,rgb(48, 110, 203),rgb(48, 210, 99));
+    height: 100%;
+    border-radius: 5px;
+    color: #111111;
+    text-align: right;
+    line-height: 20px;
+    padding-right: 10px;
+    animation: progress-animation 2s ease-in-out;
+}
+
+  @keyframes progress-animation {
+    0% {
+        width: 0;
+    }
+}  
+
+/* Add your existing styles here */
+
+.resume-download {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background:linear-gradient(to right,rgb(47, 217, 233),rgb(48, 210, 129));
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+    font-family: 'Croissant One', cursive;
+    color: #ddd;
+}
+
+.resume-download h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.resume-download p {
+    margin-bottom: 20px;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2b11a1;
+    color: rgb(237, 224, 224);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #0789aa;
+}
+#contact {
+    background-color: #f9f9f934;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 960px;
+    margin: 20px auto;
+}
+
+/* Style for the Contact section heading */
+#contact h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style for the contact information */
+#contact p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #167fbd;
+    transition: color 0.3s;
+}
+
+#contact a:hover {
+    color: #0056b3;
+}
+
+/* Style for the contact form */
+#contact form {
+    text-align: left;
+}
+
+#contact label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#contact textarea {
+    resize: vertical;
+}
+
+#contact button[type="submit"] {
+    background-color: rgb(38, 38, 188);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contact button[type="submit"]:hover {
+    background-color: #d6468e;
+}
+
+/* Add your existing styles here */
+
+/* Style for the Footer Row (flex container) */
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+/* Style for the Social Media section */
+.social-media {
+    text-align: center;
+    flex-basis: 30%; /* Adjust as needed to control the width of this section */
+}
+
+.social-media h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.social-media a i {
+    margin-right: 10px;
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+.social-media a:hover {
+    color: #0056b3;
+}
+
+/* Style for the Thought section */
+.thought {
+    text-align: center;
+    flex-basis: 30%; /* Adjust as needed to control the width of this section */
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.thought p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Style for the Ending Lines section */
+.ending-lines {
+    text-align: center;
+    flex-basis: 30%; /* Adjust as needed to control the width of this section */
+    margin-top: 20px;
+    padding: 10px 0;
+    color: #777;
+}
+
+.ending-lines p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
